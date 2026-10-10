@@ -1,0 +1,16 @@
+Evidence-Driven Code Optimization
+Copyright 2026 pifu-zh
+
+This product includes documentation, templates, and software developed for
+Evidence-Driven Code Optimization.
+
+The workflow is inspired by the publicly described methodology associated with
+OpenAI's "Sharing AI progress in mathematics" announcement and the openai/math
+repository:
+
+  https://openai.com/index/sharing-ai-progress-in-mathematics/
+  https://github.com/openai/math
+
+This project is not affiliated with, endorsed by, or sponsored by OpenAI. No
+mathematical manuscripts, proofs, model outputs, prompts, or other contents from
+openai/math are included.
