@@ -11,7 +11,8 @@ SKILLS = (
     "evidence-driven-refactor",
     "evidence-driven-extension",
 )
-FILES = ("SKILL.md", "WORKFLOW.md", "PROMPT.md")
+FILES = ("SKILL.md",)
+STALE = ("WORKFLOW.md", "PROMPT.md")
 
 
 def skill_homes():
@@ -41,6 +42,10 @@ def install():
         for name in SKILLS:
             destination = home / name
             destination.mkdir(parents=True, exist_ok=True)
+            for filename in STALE:
+                leftover = destination / filename
+                if leftover.is_file():
+                    leftover.unlink()
             for filename in FILES:
                 shutil.copy2(source / name / filename, destination / filename)
             print(destination)

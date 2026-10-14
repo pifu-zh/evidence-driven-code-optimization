@@ -22,7 +22,7 @@ python3 /path/to/evidence-driven-code-optimization/scripts/new_investigation.py 
   --slug checkout-discount-zero-total
 ```
 
-`--kind` 可以是 `bug`、`performance` 或 `extension`。然后按对应 skill 的 `WORKFLOW.md` 做。
+`--kind` 可以是 `bug`、`performance` 或 `extension`。然后按对应 skill 的 `SKILL.md` 做。
 
 ## 使用场景
 
