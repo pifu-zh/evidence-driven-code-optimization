@@ -66,3 +66,14 @@ ownership change:
 family status: tentative | confirmed | resolved-by-design
 last updated:
 ```
+
+不足两个已验证案例时保持 tentative。需要比较多个已验证记录时，用下面的提示：
+
+```text
+以下是多个已验证问题：
+
+<evidence records>
+
+请归纳重复出现的根因家族、典型代码模式、可复用测试模板、适合静态检查的部分，以及哪些问题说明设计本身需要调整。
+不要根据单例建立家族；否则标记为 tentative。
+```
